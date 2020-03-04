@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Don't forget the title</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="app.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        
+        <div class="jumbotron" id="inputs">
+            <h1>Open Library</h1>
+            <p>Please enter the ISBN of the book you'd like to retrieve</p>
+            <span>ISBN <input type="text" name="number" id="textIn"></span>
+            <button value="Sign Up!">Submit</button>
+            <!--look for number typing the thing-->
+        </div>
+        
+        
+        <div class="row results">
+            <div class="row col-3" id="book">
+                
+            </div>
+                        
+            <div class=" col-4" id="info">
+                <div class="row">Title: <span id = "title"></span></div>
+                <div class="row">Author: <span id = "author"></span></div>
+                <div class="row">Publish: <span id="publish_year"></span></div>
+                <div class="row">Publisher: <span id="publisher"></span></div>
+                <div class="row">ISBN: <span id="ISBN"></span></div>
+                <div class="row">Pages: <span id="pages"></span></div>
+                
+            </div>
+        </div>
+        
+        
+        
+    </body>
+    
+    <script type="text/javascript" src="app.js"></script>
+    
+</html>
