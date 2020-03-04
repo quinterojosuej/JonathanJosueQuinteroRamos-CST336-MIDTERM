@@ -27,7 +27,7 @@ $(document).ready(function() {
                 
                 // console.log(result["ISBN:"+textIn]); // this is the way to be inside the object
                 
-                bookPlace.append("<img class='img-thumbnail' src=" + result["ISBN:" + textIn]["cover"]["large"] + ">");
+                bookPlace.append("<img class='cover' src=" + result["ISBN:" + textIn]["cover"]["large"] + ">");
                 
                 title.append("<div>"+result["ISBN:" + textIn]["title"] + "</div>");
                 
