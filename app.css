@@ -1,7 +1,9 @@
 .cover {
     border: 5px solid black;
     border-radius: 10px;
-    padding: ;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
 }
 
 .info {
